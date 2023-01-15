@@ -12,4 +12,6 @@ if (a % 2 == 0)
 {
     Console.WriteLine($"Число {a} четное");
 }
-else { Console.WriteLine($"Число {a} нечетное"); }
+else { 
+    Console.WriteLine($"Число {a} нечетное"); 
+    }
