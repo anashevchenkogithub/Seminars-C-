@@ -13,16 +13,17 @@ int b = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите третье целое число  > ");
 int с = Convert.ToInt32(Console.ReadLine());
 
-int[] numbers = new int[] {a, b, с};
+int[] numbers = new int[] { a, b, с };
 int i = 0;
 int max = a;
 
-while (i < 3) 
-{ 
-    if (numbers[i]> max) {
+while (i < 3)
+{
+    if (numbers[i] > max)
+    {
         max = numbers[i];
-        i++; }
-    else {i++;}
+    }
+    i++;
 }
 
 Console.WriteLine($"Наибольшее из заданных число {max}");
