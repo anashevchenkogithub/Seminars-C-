@@ -6,10 +6,11 @@
 Console.Write("Введите целое положительное число  > ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-int[] numbers = new int[a-1] ;
+int[] numbers = new int[a - 1];
 int i = 0;
 
-while (i < a-1) 
-{ Console.Write($"{i+2} ");
-    i = i+2;
+while (i < a - 1)
+{
+    Console.Write($"{i + 2} ");
+    i = i + 2;
 }
