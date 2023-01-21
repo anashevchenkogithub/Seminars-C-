@@ -16,8 +16,8 @@ int InputInt(string message)
 int a = InputInt("Введите трехзначное число > ");
 if (a > 99 && a < 1000)
 {
-    int digit2 = ((a/10) % 10);
-    
+    int digit2 = ((a / 10) % 10);
+
     Console.WriteLine($"Вторая цифра числа {a} равна {digit2}");
 }
 else
